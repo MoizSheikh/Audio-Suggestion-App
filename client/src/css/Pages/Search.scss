@@ -1,0 +1,91 @@
+.Seach_container{
+   // background-color: rgb(134, 240, 134);
+   background: -webkit-linear-gradient(to left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+   background: -o-linear-gradient(to left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+  background: -moz-linear-gradient(to left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+   background: linear-gradient(to left, #00dbde, #5da870, #00dbde, #228a47);
+
+}
+
+.searchLabel{
+    font: 2em sans-serif;
+    font-weight: bolder ;
+}
+
+.searchInput{
+    width: 40vw;
+    border: 2px solid black;
+    height: 60px ;
+    margin: 20px 0px;
+    
+    
+}
+
+.searchInputt1{
+    width: 90vw;
+    border: 2px solid black;
+    height: 60px ;
+    margin: 20px 0px;
+}
+
+.searchInput::placeholder{
+    margin-left: 20px;
+}
+
+
+.searchBtn{
+    border-radius: 50px;
+    width: 170px ;
+    padding: 10px ;
+    // display: absolute;
+    margin: 10px auto;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 251, 0);
+    text-align: center;
+    color: black;
+    font: 1.2em sans-serif;
+
+}
+
+
+
+
+.search_audio audio{
+    width: 60vw;
+}
+
+.search_audio audio::-webkit-media-controls-enclosure {
+    background-color: rgb(247, 247, 80);
+    background-color: white;
+    // width: 600px;
+}
+
+.search_audio audio::-webkit-media-controls-mute-button{
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    // width: 1000px;
+    // height: 400px;
+}
+
+.selectTable{
+    background-color: rgb(7, 112, 7);
+    border-radius: 12px;
+    padding: 12px;
+    color: white;
+    font-weight: 500;
+    height: 70px;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+.search-bg{
+    // background: linear-gradient(to right, red , yellow);
+     //background:radial-gradient(25% 25% at 0 0, circle, hsla(0, 0%, 100%, 0.3), hsla(0, 0%, 0%, 0.3))
+    background: -webkit-linear-gradient(to left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+    background: -o-linear-gradient(to left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+   background: -moz-linear-gradient(to left, #00dbde, #fc00ff, #00dbde, #fc00ff);
+    background: linear-gradient(to left, #00dbde, #5da870, #00dbde, #228a47);
+ 
+ }
