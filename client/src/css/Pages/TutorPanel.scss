@@ -1,75 +1,74 @@
-.admin_container{
+.admin_container {
+  margin: 0px 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+.audioLists {
+  display: flex;
+  h3 {
+    display: none;
+  }
+}
+
+.AudioList1 {
+  width: 50% !important;
+}
+
+.AudioList2 {
+  width: 50% !important;
+}
+
+.admin_AudioList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px !important;
+}
+
+@media (max-width: 1000px) {
+  .admin_container {
     margin: 0px 50px;
-    background-color: rgb(255, 255, 255);
+  }
+  .admin_AudioList {
+    flex-direction: column;
+  }
+
+  .AdminBtns {
+    margin: 10px auto;
+  }
 }
 
-.audioLists{
-    display: flex;
-    h3{
-        display: none;
-    }
+@media (max-width: 800px) {
+  .admin_container {
+    margin: 0px 20px;
+  }
 }
+@media (max-width: 680px) {
+  .admin_container {
+    margin: 0px 20px !important;
+  }
 
-.AudioList1{
-    width: 50% !important;
-}
+  .audioLists {
+    flex-direction: column;
+    justify-content: center;
 
-.AudioList2{
-    width: 50% !important;
-}
-
-
-.admin_AudioList{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px 10px !important;
-}
-
-@media (max-width:1000px){
-    .admin_container{
-        margin: 0px 50px;
+    h3 {
+      display: initial;
     }
-    .admin_AudioList{
-        flex-direction: column;
-    }
+  }
 
-    .AdminBtns{
-        margin: 10px auto;
+  .AudioHeadingList {
+    h3 {
+      display: none;
     }
-}
+  }
 
-@media (max-width:800px){
-    .admin_container{
-        margin: 0px 20px;
-    }
-}
-@media (max-width:680px){
-    .admin_container{
-        margin: 0px 20px !important;
-    }
+  .AudioList1 {
+    width: 100% !important;
+  }
 
-    .audioLists{
-        flex-direction: column;
-        justify-content: center;
-
-        h3{
-            display: initial;
-        }
-    }
-    
-    .AudioHeadingList{
-        h3{
-            display: none;
-        }
-    }
-
-    .AudioList1{
-        width: 100% !important;
-    }
-    
-    .AudioList2{
-        width: 100% !important;
-    }
+  .AudioList2 {
+    width: 100% !important;
+  }
 }

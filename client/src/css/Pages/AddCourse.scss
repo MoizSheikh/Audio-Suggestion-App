@@ -1,68 +1,59 @@
-.add-form{
-    display: flex;
-    flex-direction: column;
-    // margin: 20px auto;
-    overflow: hidden;
-    margin: 20px 100px;
+.add-form {
+  display: flex;
+  flex-direction: column;
+  // margin: 20px auto;
+  overflow: hidden;
+  margin: 20px 100px;
 }
 
-.AddAudiosHeading{
-    margin: 20px auto;
+.AddAudiosHeading {
+  margin: 20px auto;
 }
 
-.AddAudiosContainer{
-    padding: 10px;
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
+.AddAudiosContainer {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.AddAudio_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addAudiosBtn {
+  justify-content: center;
+  a {
+    margin: 0px 10px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .AddAudiosContainer {
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
+  }
 }
-
-.AddAudio_box{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+@media (max-width: 992px) {
+  .AddAudiosContainer {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
-
-.addAudiosBtn{
-
-    justify-content: center;
-    a{
-        margin: 0px 10px;
-    }
+@media (max-width: 850px) {
+  .AddAudiosContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
-
-
-
-
-@media (max-width:1100px){
-    .AddAudiosContainer{
-     
-        grid-template-columns: repeat(5,1fr);
-        gap: 20px;
-    }
+@media (max-width: 650px) {
+  .AddAudiosContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-@media (max-width:992px){
-    .AddAudiosContainer{
-     
-        grid-template-columns: repeat(4,1fr);
-    }
-}
-@media (max-width:850px){
-    .AddAudiosContainer{
-     
-        grid-template-columns: repeat(3,1fr);
-    }
-}
-@media (max-width:650px){
-    .AddAudiosContainer{
-     
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-@media (max-width:450px){
-    .AddAudiosContainer{
-     
-        grid-template-columns: repeat(1,1fr);
-    }
+@media (max-width: 450px) {
+  .AddAudiosContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
